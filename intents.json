@@ -1,0 +1,144 @@
+{"intents": [
+  {"tag":"greetings",
+   "patterns":["hi","hello","hey","what's up","Good day"],
+   "responses": ["Hii","Hello","Helllllllo!!", "VinHello", "Heyy", "What's up"]},
+  {"tag":"friends",
+   "patterns":["how do we get the same class as our friends","can friends manage to get same teachers in ffcs"],
+   "responses": ["Sit together and keep your all the teachers together and next day while registering try your best to register the same. Try to select teachers that the crowd will not prefer but will be good enough. Its all about luck here.","Yes many get the same, you try to set your time table together and a bit different from the crowd to increase your chances."]},
+  {"tag":"courses",
+   "patterns":["Should I take only core courses or is it necessary to take electives too"],
+   "responses": ["It is generally preffered to prioritize and finish core credits first. But, it's all about getting desired credits for the semester. If you lack credits, you can and should take electives and aim for atleast 20+ credits every semester."]},
+  {"tag":"grades",
+   "patterns":["Top Courses to select for 2nd semester"],
+   "responses": ["Use Ventor https://ventor.vinnovateit.com/"]},
+  {"tag":"thanks",
+   "patterns":["who made you","who are you","you guys are amazing ","you guys are the best","thanks for the info","thanks","thanks a lot"],
+   "responses": ["I was created by VinnovateIT, Official lab of SITE. Follow us on https://www.instagram.com/vinnovateit/"]},
+   {"tag":"core",
+    "patterns":["What are core and elective courses"],
+    "responses": ["Core courses are mandatory courses you must study to meet the requirements of your program. Electives are courses you can choose, allowing you to study topics that interest you. Electives, when added to your core courses, make up the total number of units needed to complete your degree."]},
+  {"tag":"crash",
+    "patterns":["What to do if the site crashes","What if the server is down and you're unable to fill your preferences"],
+    "responses":["If the servers are down or the site has crashed, best you can do is wait for it to get back to working state, and be connected to you friends and be active in common groups to stay updated if the site is working or not. Also, don't immediately assume that it has crashed, there's a high chance of FFCS site getting too slow due too heavy traffic but it still might be working, so wait for a few minutes, and also check with your friends and colleagues if they're facing similar issues"]
+  },
+  {"tag":"subjects",
+    "patterns":["What subjects should we choose","How many subjects do I have to register"],
+    "responses":["You are supposed to take the courses sent to you on email by the Dean or HOD. Other than that, you can select any UE(University Elective) which captivates your interest (only after second semester).","You are supposed to take the subjects sent to you on email by the Dean or HOD. Other than that, you can select any UE(University Elective) which captivates your interest. The number of subjects you take doesn't matter but you should register for 22 - 24 credits each semester to avoid extra burden in the final year."]
+  },
+  {"tag":"teachers",
+    "patterns":["How do I select the teachers and slots from that huge list"],
+    "responses":["For selecting teachers, we would recommend you to ask your seniors about the teachers. The seniors are quite helpful and will tell you about the teacher's grading system, etc. We would recommend you to take all the morning slots(A1,B1,C1..) or all the evening slots(A2,B2,C2,...). If not, take the ones which are available." ]
+  },
+  {"tag":"slots",
+    "patterns":["Should I think about which slots I am picking or should pick them randomly"],
+    "responses":["We would recommend you to take all the morning slots(A1,B1,C1..) or all the evening slots(A2,B2,C2,...). If not, take the ones which are available."]
+  },
+  {"tag":"timetable",
+    "patterns":["How should we choose our time table","How to structure your timetable and how the ffcs portal works","how to prepare our timetable"],
+    "responses":["In order to avoid confusion, the best way to start is by choosing when are you most productive i.e. in the morning or evening and accordingly decide your theory and lab slots. If you decide for theory in the morning, then its a good practice to have labs in the afternoon and vice-versa. This is also encouraged since some faculties take up theory classes in their corresponding labs in order to complete the syllabus. Structure your timetable in such a way that you have all theory slots in the morning and labs in the afternoon or vice-versa and also make sure not to have too many labs on a single day. Once you login to the FFCS portal, you'll be presented with the categories of courses as in the My Curriculum section in VTOP. On selecting one of these, you'll be presented the list of courses under that category, click on Register and select the theory and lab slots of the desired faculty (both of the same faculty)."]
+  },
+  {"tag":"credits",
+    "patterns":["How many credits are ideal to takein a sem?","How many credits should we take in 2nd semester","How to complete credits"],
+    "responses":["You are expected to complete a certain number of credits by the end of your 4th year to get the degree. Ideally it is recomended to take 20-24 credits in a semester. Try to take around 21-23 credits in your second semester. "]
+  },
+  {"tag":"electives",
+    "patterns":["How do I register for electives"],
+    "responses":["You can select any UE(University Elective) which captivates your interest. The number of subjects you take doesn't matter but you should register for 22 - 24 credits each semester to avoid extra burden in the final year."]
+  },
+  {"tag":"effective",
+    "patterns":["How to choose slots and teachers effectively"],
+    "responses":["There is no effective way of choosing slots. Even if you plan one, it isn't guranteed that you would get all the slots you wished for, owing to the large number of students registering at the same time. However, keeping all theory slots in the morning and lab slots in the evening and vice-versa may help you going for many other faculties during FFCS if in case the slots of the faculty that you wished for is full."]
+  },
+  {"tag":"morning-afternoon",
+    "patterns":["Should we take theory classes in the morning and lab classes in the evening" , "Should we opt for theory classes in the morning and lab in the afternoon, or the other way round"],
+    "responses":["In order to avoid confusion, the best way to start is by choosing when are you most productive i.e. in the morning or evening and accordingly decide your theory and lab slots. If you decide for theory in the morning, then its a good practice to have labs in the afternoon and vice-versa. This is also encouraged since some faculties take up theory classes in their corresponding labs in order to complete the syllabus. Check out with seniors to know about various faculties and then prepare 2-3 timetables based on their reviews and the available slots in your timetable. Just try to avoid a mix of both in the morning or in the evening."]
+  },
+  {"tag":"credits",
+    "patterns":["What are the maximum and minimum credits per semester"],
+    "responses":["One can take minimum 16 and maximum 27 credits in a semester."]
+  },
+  {"tag":"ffcs",
+    "patterns":["What is ffcs"],
+    "responses":["FFCS (Fully Flexible Credit System) is a system which VIT follows to let its students choose the subjects they want to study and the teachers they want to study the subjects from."]
+  },
+  {"tag":"platform",
+    "patterns":["what will be the platform for ffcs","How is ffcs conducted", "How to operate ffcs on vtop and all process"],
+    "responses":[ "A different VTOP site link shows in VTOP spotlight which only opens during your time slot."]
+  },
+  {"tag":"reschedule",
+    "patterns":["is there a option for rescheduling ffcs"],
+    "responses":["No, there is no option to reschedule FFCS :( . However, you can register for courses in add/drop"]},
+  {"tag":"language",
+    "patterns":["Do we have to chose any other language along with english?"],
+    "responses":["Yes, in your curriculum, you have to learn one foreign language atleast. There is an option for Espenol, French, German, Japanese, Chinese  and Greek."]
+  },
+  {"tag":"internet",
+    "patterns":["What do i do if i get a server error because of my slow internet"],
+    "responses":["Firstly, don't immediately assume that the site has crashed due to your internet connection, there's a high chance of FFCS site getting too slow due too heavy traffic but it still might be working, so wait for a few minutes, and also check with your friends and colleagues if they're facing similar issues. Unfortunately, you only get one chance to chooose your slots and teachers during FFCS. For branches like CSE, where the population is very high, the slots for the desired teachers finish very quickly so you have to be prepared beforehand itself. If you end up with very little credits, contact your faculty advisor and they might assist you to get some seats increased for some teachers in some slots."]
+  },
+  {"tag":"subjects",
+    "patterns":["What courses to choose after sem 2","What subjects will be given in 2nd semester"],
+    "responses":["You will receive a mail. It is different for different branches, for more information, visit ventor.vinnovateit.com"]
+  },
+  {"tag":"miration",
+    "patterns":["What is the procedure of selecting courses for students going program migration"],
+    "responses":["Program migration is done at the end of the first year (i.e. after second semester). The ranking is done based on the following two criteria: 60% weightage is given to the grades obtained in the two subjects specific to the programme you wish to migrate to and 40% weightage is given to the CGPA at the the end of the first year. Hence, when you are registering courses for the second semester make sure you register for the specific courses of the programme you wish to migrate to. A mail regarding the specific courses would be circulated before FFCS, so that you can plan it accordingly."]
+  },
+  {"tag":"timing",
+    "patterns":["When to LOGIN-exact timings"],
+    "responses":["You'll receive a mail regarding the alloted time slot. Try to login 2-3 seconds after the given time to prevent server crash."]
+  },
+  {"tag":"relative",
+    "patterns":["Good faculty in relative grading."],
+    "responses":["In Relative grading, a good faculty is the one who doesn't give marks unnecessarily. Its better to choose faculties that give deserving marks rather than cutting marks blatantly. It is better to take up the faculties that give reasons and are open to answer doubts rather than taking up some faculties who do not answer to your queries."]
+  },
+  {"tag":"absolute",
+    "patterns":["Good faculty in absolute grading."],
+    "responses":["When its absolute grading, its better to have a faculty who gives grades freely or is very lenient while correcting answers."]
+  },
+  {"tag":"internals",
+    "patterns":["Marking pattern of vit like for DAs and quizes","Marking scheme for internals."],
+    "responses":["It depends on your faculty. In the introductory class they'll explain the marking scheme and rubrics. However, in general, faculties follow the system of two quizzes of 10 marks each and a DA of 10 marks. Although they can change it according to their course needs."]
+  },
+  {"tag":"blacklisted",
+    "patterns":["How do we get to know about the best faculty","How to choose teachers","What are Blacklisted faculties","Which faculty should we avoid at all costs","What are the teachers that give the best marks","What are the teachers that give the best marks","Which faculty should i choose the one who teaches good or the one who gives good marks","what kind of teachers should we opt for"],
+    "responses":["A few days before FFCS a course allocation list will be provided which will be available on VTOP. This will include the list of all the courses provided in that semester along with the associated faculties and slot.Some faculties are known to be extra strict or doesn't give you deserving marks or are hard to comply with and other bad reasons which might result in a low grade. It is also adviced not go for a very lenient faculty because the class average might become too high (ex: cutoff for S grade might be 97 marks).The best faculties are the ones in middle since the class average remains balanced. However it can also depend on personal choice"]
+  },
+  {"tag":"teachers",
+    "patterns":["How to maximise your chances of getting best teachers"],
+    "responses":["To get the desired faculty make sure you have a good internet connection before you go for FFCS and follow the instructions to make sure the site doesn't crash like opening on multiple tabs, reloading the page and hope for the best!"]
+  },
+  {"tag":"cgpa",
+    "patterns":["What is an Ideal CGPA" ],
+    "responses":["Anything above 9 can be considered an ideal CGPA since maintaining a minimum attendance is not required and you can clear cutoff for most companies during placement and you'll get priority to get better rooms"]
+  },
+  {"tag":"tips",
+    "patterns":["Tips on CATs and FATs"],
+    "responses":["Best way to study for exams is to refer to faculty notes, youtube tutorials, referring to books mentioned in the syllabus. Visit https://studyhub.vinnovateit.com/"]
+  },
+  {"tag":"recat",
+    "patterns":["When will the recat forms come out?","Recat possible","Recat forms"],
+    "responses":["Recat applications generally come out after the marks are declared, Recat is applied on Vtop where you have to give the reason and upload some proof"]
+  },
+  {
+    "tag":"reevaluation",
+    "patterns":["How to apply for re evaluation in FAT"],
+    "responses":["You have to apply for re-evaluation on VTop. After marks are uploaded on Vtop you have to pay 100 Rs for paper seeing on Vtop and only after that you can proceed to apply for re-evaluation by paying Rs 400"]
+  },
+  {"tag":"answersheet",
+    "patterns":["Can we view answer scripts in FAT"],
+    "responses":["To view answer sheet in FAT you have to apply for paper seeing on Vtop by paying Rs. 100"]
+  },
+  {"tag":"result",
+    "patterns":["When would we get out FAT results"],
+    "responses":["It takes around 2-3 weeks to declare the marks after the exam of last slot is over and around one more week to declare the grades."]
+  },
+  {"tag":"check",
+    "patterns":["Does our own faculty check our FAT papers?"],
+    "responses":["There is still unclarity about who checks FAT papers."]
+  },
+  {"tag":"reevaluation",
+    "patterns":["How to apply for re evaluation in CAT"],
+    "responses":["There is no re-evaluation process for CAT, you have to personally ask your faculty to re-evaluate your paper"]
+  }
+]}
